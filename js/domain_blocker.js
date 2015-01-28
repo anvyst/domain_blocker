@@ -41,7 +41,7 @@ $(document).ready(function() {
         // extract modal form in generic container
         if( postdata !== undefined ) {
             $.ajax({
-                url: '../modules/addons/domain_blocker/domainblockerajax.php',
+                url: '../modules/addons/domain_blocker/DomainBlockerAjax.php',
                 type: "post",
                 data: postdata, 
                 async: false,
