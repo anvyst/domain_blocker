@@ -14,7 +14,7 @@ domain name.
 
 1. Unzip the archieve in modules/addons/
 2. Place hook_domain_blocker.php into includes/hooks/ to activate the blocker script.
-
+3. Alter your WHMCS Database with ```domain_blocker.sql``` containing two extra tables for the addon.
 
 ### Localization
 
